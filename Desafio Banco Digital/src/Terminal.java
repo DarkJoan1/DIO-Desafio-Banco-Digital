@@ -3,11 +3,11 @@ public class Terminal {
     
     public static void main(String[] args) {
            
-	Cliente venilton = new Cliente();
-	venilton.setNome("Venilton");
+	Cliente giovanna = new Cliente();
+	giovanna.setNome("Giovanna");
 	
-	Conta cc = new ContaCorrente(venilton);
-	Conta poupanca = new ContaPoupanca(venilton);
+	Conta cc = new ContaCorrente(giovanna);
+	Conta poupanca = new ContaPoupanca(giovanna);
 	cc.depositar(100);
 	cc.transferir(100, poupanca);
 	
